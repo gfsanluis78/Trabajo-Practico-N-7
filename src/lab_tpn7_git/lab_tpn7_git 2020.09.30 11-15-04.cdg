@@ -42,10 +42,8 @@
         </Method>
       </Methods>
     </Class>
-    <Class name="DirectorioTelefonico" package="lab_tpn7_git" visibility="public" xPosition="320.0" yPosition="20.0">
-      <Fields>
-        <Field name="clientes" type="Map&lt;Long, Cliente&gt;" visibility="package"/>
-      </Fields>
+    <Class name="DirectorioTelefonico" package="lab_tpn7_git" visibility="public" xPosition="699.0" yPosition="180.0">
+      <Fields/>
       <Constructors>
         <Constructor visibility="public"/>
       </Constructors>
@@ -65,7 +63,7 @@
         </Method>
       </Methods>
     </Class>
-    <Class name="Lab_TpN7_Git" package="lab_tpn7_git" visibility="public" xPosition="620.0" yPosition="20.0">
+    <Class name="Lab_TpN7_Git" package="lab_tpn7_git" visibility="public" xPosition="814.0" yPosition="20.0">
       <Fields/>
       <Constructors/>
       <Methods>
@@ -76,7 +74,7 @@
     </Class>
   </ClassDiagramComponents>
   <ClassDiagramRelations>
-    <HasRelation name="clientes" source="lab_tpn7_git.DirectorioTelefonico" target="lab_tpn7_git.Cliente" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="Map&lt;Long, Cliente&gt;"/>
     <UseRelation source="lab_tpn7_git.DirectorioTelefonico" target="lab_tpn7_git.Cliente" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="clientes" source="lab_tpn7_git.DirectorioTelefonico" target="lab_tpn7_git.Cliente" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="Map&lt;Long, Cliente&gt;"/>
   </ClassDiagramRelations>
 </ClassDiagram>
